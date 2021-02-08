@@ -7,6 +7,8 @@ import ProductScreen from './screens/ProductScreen';
 
 //Components
 import Navbar from './components/Navbar';
+import Backdrop from './components/Backdrop';
+import SideDrawer from './components/SideDrawer';
 
 
 
@@ -14,6 +16,8 @@ function App() {
   return (
     <Router>
       <Navbar/>
+      <SideDrawer/>
+      <Backdrop/>
       <main>
         <Switch>
           <Route exact path="/" component={HomeScreen}/>
