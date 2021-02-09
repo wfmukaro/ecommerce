@@ -25,10 +25,12 @@ const ProductScreen = () => {
                     </p>
                     <p>
                         Qty
-                        <select value="1">1</select>
-                        <select value="2">2</select>
-                        <select value="3">3</select>
-                        <select value="4">4</select>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
                     </p>
                     <p>
                         <button type="button">Add to Cart</button>
